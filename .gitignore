@@ -1,7 +1,8 @@
 # Python virtual environments
 .venv/
-env/
+.env
 venv/
+__pycache__/
 
 # JetBrains project files
 .idea/
