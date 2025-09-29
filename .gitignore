@@ -6,3 +6,6 @@ __pycache__/
 
 # JetBrains project files
 .idea/
+
+# Other
+temp_audio/
