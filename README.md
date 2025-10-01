@@ -15,6 +15,6 @@ After cloning the repository:
 
 1. Create a virtual environment `python -m venv venv`
 2. Activate the environment `source venv/bin/activate`
-3. Install necessary python libraries using `pip`: `pip install "fastapi[all]" uvicorn "transformers[torch]" torch scipy`
+3. Install necessary python libraries using `pip`: `pip install "fastapi[all]" uvicorn "transformers[torch]" torch soundfile`
 4. Run the app from the root directory `uvicorn main:app --reload` (NOTE: the first time you start the server, the model will be downloaded from Hugging Face thus it may take some time and requires a stable internet connection)
 5. Once the server is running go to `http://127.0.0.1:8000` to access the UI and use the app
