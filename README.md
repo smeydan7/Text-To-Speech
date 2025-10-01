@@ -4,7 +4,7 @@ This project is a simple web application that converts text into speech using a 
 
 # Features
 * Backend: Built with Python and FastAPI.
-* AI Model: Utilizes the suno/bark-small model from Hugging Face for high-quality, realistic speech generation.
+* AI Model: Utilizes the microsoft/speecht5_tts from Hugging Face for high-quality, realistic speech generation.
 * Local Inference: The model runs entirely on your local machine. No external API calls are needed for the speech synthesis.
 
 # Setup and Installation
